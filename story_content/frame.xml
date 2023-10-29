@@ -6,28 +6,30 @@
     <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npxnanbnsnfns00000000001" font="Open Sans" controllayout="npxnanbnsnfns00000000001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00001100001" font="Open Sans" controllayout="npnxnanbnsnfns00001100001" colorscheme="npnxnanbnsnfns00000000001" string_table="npnxnanbnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
       <optiongroup name="sidebaroptions">
         <options>
-          <option name="title_enabled" value="false">
+          <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="DUNIA FANTASI 1" />
+              <option name="title_text" value="MPI FESTIVAL MEDIA KREATIF" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
             <options />
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
-              <option name="sidebarpos" value="right" />
+              <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
             </options>
           </option>
           <optionlist name="tabs">
             <listitems>
-              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
               <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
@@ -80,7 +82,7 @@
       </optiongroup>
       <optiongroup name="bottombaroptions">
         <options>
-          <option name="bottombar_enabled" value="false" />
+          <option name="bottombar_enabled" value="true" />
         </options>
       </optiongroup>
     </optiongroups>
@@ -200,6 +202,52 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npxnanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1286,37 +1334,80 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.6Raspe5tmD5" displaytext="Untitled Scene" expand="true" type="slide">
+        <slidelink slideid="_player.5qiEoMrah6W" displaytext="PGRI-OPENING" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.6Raspe5tmD5.6K7NXnbTlcK" displaytext="BUMPER" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6YlI0GVMRc2" displaytext="OPENING" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6nJ1XdOcw23" displaytext="MENU UTAMA" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5WO871h2m63" displaytext="MENU PILIHAN" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5zijGLHpMqw" displaytext="PETUNJUK GAME" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5hLljMFsAns" displaytext="PUZZLE 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6osSWcl6CgH" displaytext="PUZZLE 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5oH5KvNIfA2" displaytext="Contoh Cerita Fantasi " expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6SHmcil64Uj" displaytext="PUZZLE 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6ltLScvApmo" displaytext="CP dan TP" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6ngh5xRtQtq" displaytext="BANK SOAL" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5iTSLy8pn63" displaytext="SERTIFIKAT" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6l4cL2C46px" displaytext="PETUNJUK EVALUASI" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5ygebynWOSg" displaytext="MENU INFORMASI" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6IrQ3Z5SfeN" displaytext="PETUNJUK PENGGUNAAN 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6Ec3SfIct2Q" displaytext="PENGEMBANG 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.64yohjiMrAo" displaytext="PETUNJUK PENGGUNAAN 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5tp3eNiTsP0" displaytext="REFERENSI" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6mJGjjpZufV" displaytext="PENGEMBANG 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6fEAnUZsYBL" displaytext="MATERI 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5pUTCdhpGx8" displaytext="CONTOH CERITA FANTASI 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.6K4zsf5duuc" displaytext="MENU MATERI" expand="false" type="slide" />
-            <slidelink slideid="_player.6Raspe5tmD5.5yhYPLgC8vK" displaytext="MATERI 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5qiEoMrah6W.5ZozKIA2j0d" displaytext="BUMPER" expand="false" type="slide" />
+            <slidelink slideid="_player.5qiEoMrah6W.6fmb7yylEOy" displaytext="LOG IN" expand="false" type="slide" />
+            <slidelink slideid="_player.5qiEoMrah6W.5r0aO65Dd79" displaytext="MENU UTAMA" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6XrIrR6pb93" displaytext="MENU BELAJAR" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6XrIrR6pb93.6XnahH5o6as" displaytext="MENU PILIHAN BELAJAR" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6ovokPxrjc6" displaytext="menyusun teks deskripsi" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6hPwRDyIBOh" displaytext="pertanyaan 0" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6bhgKHcsn8r" displaytext="TIDAK 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6VAtWB30kUC" displaytext="TIDAK 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6MKzJM317sy" displaytext="TIDAK 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.5npCrIV7Ef9" displaytext="pertanyaan 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6XIpbxt9oBS" displaytext="pertanyaan 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.64WqfaMthKT" displaytext="pertanyaan 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6bGueJYBUkN" displaytext="pertanyaan 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.66a8XyFVXan" displaytext="pertanyaan 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6dXXMdeojNG" displaytext="contoh teks deskripsi 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6fjKGvXiixC" displaytext="contoh teks deskripsi 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.5e3fvnyBOnq" displaytext="LITERASI 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6kh29nX1IJr" displaytext="LITERASI 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6AhAuo0wmsE" displaytext="LITERASI 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.5kU6HcI6rWz" displaytext="LITERASI 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.6knA6V7Tn7L" displaytext="VIDEO 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.5xYifUiLul1" displaytext="Ceritakan dalam beberapa kalimat tentang guru inspirasimu! Ceritakanlah bagaimana sifat dan hal menarik dari gurumu dll. Semakin banyak yang kamu tulis, ibu akan semakin bisa membayangkan tentang guru  inspirasimu" expand="false" type="slide" />
+            <slidelink slideid="_player.6XrIrR6pb93.68e0JrkMAIE" displaytext="tidak final" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.60SFXhkyhs6" displaytext="MENU INFORMASI" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.60SFXhkyhs6.6VRrV8eZH4a" displaytext="INFORMASI" expand="false" type="slide" />
+            <slidelink slideid="_player.60SFXhkyhs6.63K0HRSAl2U" displaytext="PENGEMBANG" expand="false" type="slide" />
+            <slidelink slideid="_player.60SFXhkyhs6.5Y0EFMp24if" displaytext="PETUNJUK 1" expand="false" type="slide" />
+            <slidelink slideid="_player.60SFXhkyhs6.5c2LZeKJkcS" displaytext="PETUNJUK 2" expand="false" type="slide" />
+            <slidelink slideid="_player.60SFXhkyhs6.5oPvStUr3qC" displaytext="PETUNJUK 3" expand="false" type="slide" />
+            <slidelink slideid="_player.60SFXhkyhs6.5XjrzYx806P" displaytext="REFERENSI" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5nbanvGyFtT" displaytext="CP dan TP" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5nbanvGyFtT.5j9yAWYMnRD" displaytext="CP DAN TP" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6QZNJpPAnxZ" displaytext="MENU BERMAIN" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6QZNJpPAnxZ.5i9GpHWFK7n" displaytext="AYO BERMAIN" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5gtwSXcmOR5" displaytext="Sudah Level 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6eFwXuZntlw" displaytext="Sudah Level 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5fBMwT9XLCB" displaytext="Sudah Level 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.66RqsUSAyLn" displaytext="Sertifikat" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5drreZQXnBU" displaytext="Level 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5zSk43AMQMZ" displaytext="1 Drag and Drop" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6FeBOKK1L8v" displaytext="2 Drag and Drop " expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5rXTNEzGSH3" displaytext="Petunjuk Level 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.60BHn4WvmYk" displaytext="Berhasil Naik Level" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6KJ2fcXpCOq" displaytext="Level 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6iJeFl102Wh" displaytext="Berhasil Naik Level" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.65LYrK4hGMD" displaytext="Soal 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5okPlYa9qQ3" displaytext="Soal 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6efS3MFTgEU" displaytext="Soal 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6pJQQnOJUjd" displaytext="Berhasil Naik Level" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6rbpshw7NAG" displaytext="Draw from Pilihan Ganda" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6pP1bbunow9" displaytext="Soal 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.6fbvjJTmaJF" displaytext="Level 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6QZNJpPAnxZ.5ZxbMVYkVst" displaytext="Soal 2" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
   </nav_data>
-  <resource_data description="" />
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
   <transcript_data />
   <glossary_data />
 </bwFrame>
